@@ -1,0 +1,16 @@
+.masthead {
+    background: #f8f8f8;
+    padding: 10px 30px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.masthead > h1 {
+    margin: 0;
+    padding: 0.1em;
+    font-size: 1.4em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+}

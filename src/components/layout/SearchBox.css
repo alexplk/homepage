@@ -1,0 +1,38 @@
+.searchbox {
+    /* background: #abc; */
+    border: 2px solid #aaa;
+    background: white;
+    padding: 4px;
+}
+
+.searchbox:focus-within {
+    border: 2px solid #3CAAE4;
+    border-radius: 0;
+    outline: none !important;
+
+}
+
+
+
+
+.searchbox>.btn,
+.searchbox>.input,
+.searchbox>.form-control,
+.searchbox>.form-select,
+.searchbox>.input-group-text {
+  border-radius: 0;
+  border: none !important;
+  font-size: 1.0rem !important;
+}
+
+.searchbox>.btn:focus,
+.searchbox>.input:focus,
+.searchbox>.form-control:focus,
+.searchbox>.form-select:focus,
+.searchbox>.input-group-text:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+/* .searchbox > button {
+
+} */

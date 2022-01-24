@@ -1,0 +1,29 @@
+/* .btn-flat {
+  background-color: purple;
+  color: white;
+}
+
+.btn-xxl {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+} */
+
+.btn {
+  background-color: #EEEEEE;
+  color: black;
+  border-radius: 0;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #0090DB;
+  color: white;
+}
+
+
+.input-group-lg>.btn,
+.input-group-lg>.form-control,
+.input-group-lg>.form-select,
+.input-group-lg>.input-group-text {
+  border-radius: 0;
+}
